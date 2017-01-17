@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.3.1
+ENV VERSION=0.2.0
 
 RUN gem install boa --version ${VERSION} --no-format-exec
 
